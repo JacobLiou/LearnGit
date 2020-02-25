@@ -16,6 +16,7 @@ namespace CxFlatDemo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            // Application.UseCom
             Application.Run(new Form1());
         }
     }

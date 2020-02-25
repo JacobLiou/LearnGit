@@ -39,9 +39,13 @@ namespace CxFlatDemo
         {
             //cxFlatRoundProgressBar1.ValueNumber += 10;
             if (timer1.Enabled)
+            {
                 timer1.Stop();
+            }
             else
+            {
                 timer1.Start();
+            }                
         }
 
         private void timer1_Tick(object sender, EventArgs e)
